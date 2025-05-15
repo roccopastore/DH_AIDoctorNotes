@@ -8,8 +8,18 @@ from PyQt5.QtGui import QPainter, QColor, QBrush, QPen, QPixmap, QConicalGradien
 from PyQt5.QtMultimediaWidgets import QVideoWidget
 from PyQt5.QtMultimedia import QMediaPlayer
 from handle_output import get_output
+import time 
+import os
+from playwright.sync_api import sync_playwright
+from urllib.request import pathname2url
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'backend')))
+
+from handle_rec import start_recording
+from backend_main import handle_output
 
 output = []
+
 
 class RecordingButton(QPushButton):
     def __init__(self, parent=None):
@@ -65,6 +75,7 @@ class RecordingButton(QPushButton):
             self._size_anim.setEndValue(self.size() + QSize(10, 10))
             self._size_anim.start()
             self.spin_timer.start(16)
+            start_recording()
         else:
             self.setIcon(QIcon('frontend/icons/mic_icon.png'))
             self.setIconSize(QSize(40, 40))
@@ -77,7 +88,8 @@ class RecordingButton(QPushButton):
             self.spinner_angle = 0
             self.update()
             global output
-            output = get_output()
+            output = handle_output(time.time())
+            
 
     def rotate_spinner(self):
         self.spinner_angle = (self.spinner_angle + 5) % 360
@@ -178,7 +190,7 @@ class Card(QFrame):
         self.content_layout.addLayout(self.video_controls)
 
         outer_layout.addLayout(self.content_layout)
-        self.setFixedSize(300, 500)
+        self.setFixedSize(400, 500)
 
         shadow = QGraphicsDropShadowEffect(self)
         shadow.setBlurRadius(30)
@@ -259,6 +271,7 @@ class MainWindow(QWidget):
             QPushButton:pressed {
                 border-color: #64b5f6;
             }""")
+        self.download_button.clicked.connect(self.download_files)
         self.download_button.hide()
 
 
@@ -316,6 +329,8 @@ class MainWindow(QWidget):
             self.card.show_text(output[1])
         elif self.current_card_index == 0:
             self.card.show_video(output[0])
+        elif self.current_card_index == 2:
+            self.card.show_text(output[2])
         self.update_dots()
         self.card.show()
 
@@ -335,6 +350,17 @@ class MainWindow(QWidget):
         if self.current_card_index > 0:
             self.current_card_index -= 1
             self.show_card()
+
+    def download_files(self):
+        file_url = 'file://' + pathname2url(os.path.abspath('temp.html'))
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(file_url)
+            page.pdf(path="output.pdf", format="A4")
+            browser.close()
+
 
 
 if __name__ == "__main__":
