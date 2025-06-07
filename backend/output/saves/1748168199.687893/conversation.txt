@@ -1,0 +1,27 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Hello, Mr. Phillips. Take a seat.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Thank you.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Now, what seems to be the problem?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> I'm not feeling very well. I've got a terrible stomach ache and I keep throwing up.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Have you had any diarrhea?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, I haven't.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> How long have you been feeling like this?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Since late last night.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Do you know if you're allergic to anything?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, not that I know of.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> What have you eaten recently?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Well, my two children cooked dinner for my wife and me last night. It was our wedding anniversary, you see, and they wanted to surprise us.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> That was a nice thought. What did you have?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Well, I'm not sure what it was, actually. Some sort of a seafood and pasta dish. They spent a long time cooking it, so, you know, I felt I had to eat.</p>
+<p></p>
+<p>[CONVERSATION WITH IMPLIED PARTS]</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> To better understand your situation, can you tell me more about this seafood and pasta dish you ate? Was it homemade or store-bought?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> I think it was homemade. My children told me they used fresh seafood from a local market.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Have you ever eaten at a restaurant or had seafood before?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Yes, I have. I love seafood, but I've never had any issues with it before.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> That's good to know. I'd like to run some tests to see if you have any food poisoning or an allergic reaction. I'll also prescribe some medication to help with your stomach ache.</p>
+<p></p>
+<p>[CONVERSATION WITH IMPLIED PARTS]</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Okay, that sounds good. What kind of tests will you run?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> We'll do a stool test to check for bacteria or viruses that could be causing your symptoms. We'll also do a blood test to check your liver and kidney function.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Sounds like a plan. Will I be able to go home today?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Yes, you can go home today, but I want you to rest and stay hydrated. If your symptoms worsen or you experience any severe pain, please come back to the office immediately.</p>

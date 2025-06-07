@@ -1,0 +1,16 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Good morning, Miss Smith. How are you feeling today?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Good morning, doctor. I've been feeling a bit tired lately. And have you had some headaches?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> I see. How long have you been experiencing these headaches?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> About two weeks now. They are not very severe, but they happen almost every day.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Do they occur at a specific time of day? Morning, afternoon or evening?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Usually in the late afternoon.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Any other symptoms? Nausea, vision problems or sensitivity to light?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, none of those.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Alright. Have you been sleeping well?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Not really. I have been having trouble falling asleep.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> That could be contributing to your headaches and fatigue. I will check your blood pressure and run a few basic tests to be sure. In the meantime, try to reduce screen time before bed and avoid caffeine in the afternoon.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Okay, I will try that.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> I will also schedule a follow up in two weeks. If your symptoms worsen or you feel unwell, contact us right away.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Will do.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Thank you, Doctor.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Take care, Mrs. Smith.</p>

@@ -1,0 +1,15 @@
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Doctor, I've been experiencing some issues with my menstrual cycle. I'm not sure if it's normal or not.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> What kind of issues are you experiencing?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> My periods are irregular and sometimes they're really heavy. I've also been experiencing some cramps and dizziness.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Can you tell me more about the cramps and dizziness? Are they severe?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> The cramps are pretty bad and the dizziness makes me feel like I might pass out.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Have you noticed any other symptoms, such as changes in your mood or energy levels?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Yeah, I'm really tired all the time and I get anxious easily.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> I see. Have you talked to your primary care physician about these symptoms?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, I haven't. I figured it was just a normal part of being a woman.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Well, let's run some tests to rule out any underlying conditions. I'd like to do a pelvic exam and also run a blood test to check your hormone levels.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Okay, that sounds good. What do you think might be causing my symptoms?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> It's too early to tell, but I'm concerned it might be polycystic ovary syndrome (PCOS) or a thyroid issue.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> I've heard of PCOS. Is that something that's common?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Yes, it is. It's a hormonal disorder that affects many women. But we'll need to run more tests to confirm the diagnosis.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Okay, I just want to feel better.</p>

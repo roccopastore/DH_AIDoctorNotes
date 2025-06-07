@@ -1,0 +1,11 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Hi, John. How are you?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> I'm fine. And you?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Yeah, good. What is the problem? You mentioned you're feeling some chest pain and pain on the back?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Yeah. Maybe this is the problem.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Have you been experiencing this pain for a long time, or is it a recent development? And how would you rate the severity of the pain on a scale of 1 to 10?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> I've been working a lot recently, so maybe it's related to that. I'd say the pain is about a 6 or 7 out of 10.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Okay, that helps. Have you noticed any triggers that seem to make the pain worse or better? And have you experienced any other symptoms, such as shortness of breath or difficulty swallowing?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Well, I do get a bit winded when I'm working out, but that's normal, right? And I haven't had any trouble swallowing.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> That's possible, but we should still take a look. I'm going to prescribe you some Taquipirina to help with the pain and inflammation. But I'd also like to schedule a follow-up appointment to check on your progress and possibly order some additional tests to rule out any underlying conditions.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Okay, sounds good. When should I take the Taquipirina and what kind of tests should I expect?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> You should take one tablet three times a day, and I'll schedule a follow-up appointment for next week. We can discuss the tests then, but for now, let's just focus on managing your symptoms.</p>

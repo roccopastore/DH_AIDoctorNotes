@@ -1,0 +1,5 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno, Carlo. Buongiorno. Come stai?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Sono un po' stanco, dottore. Ho un po' di mal di schiena da qualche giorno.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Ah, hai fatto del lavoro forzato ultimamente?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Sì, mi sono un po' stancato, devo essere sincero.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Magari va bene qualche antidolorifico.</p>

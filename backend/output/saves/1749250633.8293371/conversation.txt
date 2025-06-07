@@ -1,0 +1,9 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Good morning. What brings you in today?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Good morning, Doctor. I've been having lower back pain for the past two weeks.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> I see. Did the pain start suddenly or gradually?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> It started gradually. I didn't lift anything heavy, and I wasn't hurt myself.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Any pain that radiates down your legs? Any numbness or tingling?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, it's just in my lower back. It gets worse when I sit for too long.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> All right. Let me examine your back. Please stand up and try to bend forward gently.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Thank you, Doctor.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> You're welcome.</p>

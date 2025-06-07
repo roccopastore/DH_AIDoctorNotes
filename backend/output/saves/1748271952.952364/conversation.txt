@@ -1,0 +1,4 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno, come si sente oggi?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Buongiorno dottoressa, ho un po' di male alla... nel sottoventre.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Hai andato a DR in questi giorni?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Eh sì, un po' sì.</p>

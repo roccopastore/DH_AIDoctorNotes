@@ -1,0 +1,13 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno Antonia.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Buongiorno dottore.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Come ti senti oggi?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Male, ho la febbre e il raffreddore.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Ah, è da tanto tempo che hai la febbre?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Tre giorni.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Ok, e a che temperatura hai avuto?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Fino a 40.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Hai provato già a prendere un po' di rattachipirina?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Sì, rattachipirina ma non ha funzionato.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Allora provo a prescriverti un antibiotico, magari passa.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Per cosa serve l'antibiotico?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Per combattere i batteri.</p>

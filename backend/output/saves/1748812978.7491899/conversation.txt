@@ -1,0 +1,14 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Hello, Mr. Phillips. Take a seat.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Thank you.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Now, what seems to be the problem?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> I'm not feeling very well. I've got a terrible stomach ache and I keep throwing up.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Have you had any diarrhea?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, I haven't.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> How long have you been feeling like this?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Since late last night.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Do you know if you're allergic to anything?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, not that I know of.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> What have you eaten recently?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Well, my two children cooked dinner for my wife and me last night. It was our wedding anniversary, you see, and they wanted to surprise us.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> That was a nice thought. What did you have?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Well, I'm not sure what it was, actually. Some sort of seafood and pasta dish. They spent a long time cooking it, so, you know, I felt I had to eat.</p>

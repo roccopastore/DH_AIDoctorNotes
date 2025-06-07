@@ -1,0 +1,7 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno!</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Buongiorno dottore. Buongiorno Franco, come stai? Ho un po' di dolore alla schiena e un po' di mal di pancia.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Sì, sì... Come ti senti in generale?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Sono un po' depresso, non so...</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Capisco. Hai mangiato qualcosa che potrebbe averti fatto male ultimamente?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Può darsi, ho mangiato un po' di pesce crudo.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Ah, il pesce crudo... Ok allora ti prescrivo del gestore di stomaco.</p>

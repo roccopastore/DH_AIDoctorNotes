@@ -10,6 +10,8 @@ import io
 import assemblyai as aai
 import requests
 import re
+import numpy as np
+import os
 from datetime import datetime
 current_date = datetime.today().strftime("%d %B %Y")  # esempio: "13 May 2025"
 
@@ -111,6 +113,28 @@ def remove_noise(output_time):
 
     return audio_mp3
 
+def get_sex_info(path):
+    try:
+        y, sr = librosa.load(path)
+
+        f0, voiced_flag, voiced_probs = librosa.pyin(y, sr=sr, fmin=librosa.note_to_hz('C2'), fmax=librosa.note_to_hz('C5'))
+
+        f0 = f0[~np.isnan(f0)]
+
+        if len(f0) == 0:
+            return "Indefinito (Nessuna voce rilevata o pitch non chiaro)"
+
+        mean_f0 = np.mean(f0)
+
+        if mean_f0 < 150:  
+            return False
+        elif mean_f0 >= 150 and mean_f0 < 250: 
+            return True
+        else: 
+            return True
+
+    except Exception as e:
+        return f"Errore durante l'elaborazione del file audio: {e}"
 
 
 def transcript_audio(audio_file_name):
@@ -118,19 +142,39 @@ def transcript_audio(audio_file_name):
     aai.settings.api_key = "1323e6e9fdb049cebe3a50e1b80c3dab"
 
     #audio_file = "./backend/output/original_audio/" + audio_file_name + ".wav"
+
+    # Esporta in formato WAV
     audio_file = "./backend/09  At The Doctors (mp3cut.net).mp3"
+    audio_total = AudioSegment.from_mp3(audio_file)
+
+    print(audio_total)
+    
     config = aai.TranscriptionConfig(
         speaker_labels=True,
         language_detection=True,
     )
     transcript = aai.Transcriber().transcribe(audio_file, config)
-
+    print(transcript.__dict__)
+    check = False
     string_to_ret = ""
-
-    for utterance in transcript.utterances:
-        string_to_ret += f"Speaker {utterance.speaker}: {utterance.text} \n"
+    count = 0
+    if not transcript.utterances is None:
+        for utterance in transcript.utterances:
+            print("UTTERANCE : " + str(utterance))
+            string_to_ret += f"Speaker {utterance.speaker}: {utterance.text} \n"
+            print(string_to_ret)
+            if count < 2:
+                audio_segment = audio_total[utterance.start:utterance.end]
+                segment_path = f"./temp_files/segment_{utterance.speaker}.wav"
+                audio_segment.export(segment_path, format="wav")
+                female = get_sex_info(segment_path)
+                print(female)
+                if female:
+                    check = True
+            count += 1
+                
     
-    return string_to_ret
+    return string_to_ret, check
 
 
 def analyze_dialogue(dialogue_text):
@@ -145,13 +189,14 @@ You will be given a dialogue between a doctor and a patient. Your tasks are:
 1. Identify who is the **Doctor** and who is the **Patient**.
 2. **Ignore any third speaker** or any voice that is not clearly identifiable as Doctor or Patient.
 3. **Fill in any missing or implied parts** of the conversation to ensure clarity and coherence.
-4. **Rewrite the entire conversation** in a clear and readable format, labeling each line as "DOCTOR:" or "PATIENT:".
+4. **Rewrite the entire conversation** in a clear and readable format, labeling each line as "DOCTOR:" or "PATIENT:". Do not rewrite or paraphrase the content. Keep the original wording as much as possible. Only format and label the lines.
 5. At the end, generate a summary section titled **[DOCTOR'S NOTES]** that includes:
    - Reported symptoms
    - Duration and severity
    - Possible diagnosis
    - Suggested follow-ups or tests
 
+**Respect the language of the conversation to write the summary**
 **Format your output as follows:**
 
 [CONVERSATION]  
@@ -165,7 +210,7 @@ PATIENT: ...
 - Possible diagnosis: ...  
 - Suggested follow-ups or tests: ...
 
-Make sure the conversation flows naturally and is medically coherent, but **do not change the original meaning** of the dialogue.
+Make sure the conversation flows naturally and is medically coherent, but **do not change the original meaning** of the dialogue and answer with the language of the conversation.
 
 Conversation:  
 {dialogue_text}
@@ -190,10 +235,11 @@ Conversation:
     conversation = conversation_match.group(1).strip() if conversation_match else ""
     doctor_notes = notes_match.group(1).strip() if notes_match else ""
     print(conversation)
+    
 
-    conversation = edit_color(conversation)
+    conversation_html = edit_color(conversation)
 
-    return conversation, doctor_notes
+    return conversation_html, doctor_notes, conversation
 
 def edit_color(conversation):
     
@@ -322,3 +368,24 @@ def generate_html_report(input_text):
     </html>
     """
     return html_template
+
+import os
+
+def save_files(conversation, notes, video, name):
+
+    folder_path = f'./backend/output/saves/{name}'
+    
+    if not os.path.exists(folder_path):
+        os.makedirs(folder_path)
+    
+    conversation_path = os.path.join(folder_path, "conversation.txt")
+    notes_path = os.path.join(folder_path, "notes.txt")
+
+
+    with open(conversation_path, "w") as conversation_file:
+        conversation_file.write(conversation)
+
+    with open(notes_path, "w") as notes_file:
+        notes_file.write(notes)
+
+    print("Files done")

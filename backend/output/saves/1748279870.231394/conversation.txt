@@ -1,0 +1,2 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno, che problema ha?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Buongiorno dottore, veramente mi fa male sul lato destro di sopra della pancia, al di sotto delle scatole.</p>

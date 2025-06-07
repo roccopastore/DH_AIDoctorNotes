@@ -1,0 +1,10 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno, signor Conti. Come sta oggi?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Un po' meglio, ma continuo ad avere dolore al fianco adesso, soprattutto la sera.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Capisco. Su una scala da 1 a 10, quanto direbbe che è intenso il dolore?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Direi un 6, a volte anche un 7, quando respiro profondamente.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Va bene. Ha avuto febbre, nausea, altri sintomi negli altri giorni?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Un po' di nausea, sì. La febbre no, almeno credo.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> D'accordo. Le farò un esame obiettivo e poi la indirizzo per una coagrafia addominale. Potrebbe trattarsi di una colica renale o di un'infermazione, ma voglio escludere qualcosa di più serio.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Va bene, dottore, grazie. Mi consiglia qualcosa per il dolore nel frattempo?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Sì, puoi prendere un antiplorifico leggero come il paracetamolo. Due volte al giorno, poi pasti. Eviti i sforzi e beva tanta acqua. Vediamo cosa dice la coagrafia e poi vediamo il da farsi.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Perfetto, grazie mille.</p>

@@ -1,0 +1,16 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno, mi dica pure, cosa la porta oggi?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Buongiorno dottore, da qualche giorno ho notato delle macchie rossaste sulla pelle, soprattutto sulle braccia e sul petto.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Capisco, le macchie provocano un prurito dolore?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Principalmente il prurito e soprattutto la sera, non sembrano essere ma alcune sembrano più infiammate.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Ha cambiato sapore, detersivo, provato nuovi alimenti?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Recentemente?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Sì, ha iniziato a usare una nuova crema idratante, non so se può essere collegata.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Potrebbe trattarsi di una reazione allergica o di una dermatite da contatto.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Vedo una pomata alienativa.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Eh, se non migliori in 4-5 giorni, facciamo gli esami più approfonditi.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Va bene, grazie.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Devo evitare qualcosa nel frattempo?</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Eviti di usare quella crema e prodotti profumati.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Cerca di non grattarsi e ottenga la pelle ben idratata con prodotti neutri.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Perfetto, la ringrazio.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Di nulla.</p>

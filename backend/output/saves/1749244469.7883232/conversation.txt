@@ -1,0 +1,11 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Buongiorno signore Bianchi, cosa la porta oggi in ambulatorio?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Buongiorno dottore, è da un paio di giorni che ho un dolore alla gola e faccio fatica a deglutire.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Capisco, ha avuto febbre o altri sintomi come tosso o raffreddore?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Un po' di febbre ieri sera a 37.8 e sì, ho anche un po' di naso chiuso.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Va bene, le do un'occhiata alla gola, avora bene per favore.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> La gola è molto rossata, ma non vedo plaque, probabilmente un'infezione virale.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Quindi non sarebbero antibiotici?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Esatto, solo riposo, liquidi caldi e, se serve, un antipiretico.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Se tra 3-4 giorni non migliora, torni a trovarmi.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Va bene, grazie mille.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Di nulla, buona coligione.</p>
