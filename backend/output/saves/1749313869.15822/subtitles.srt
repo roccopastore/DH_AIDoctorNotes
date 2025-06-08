@@ -1,0 +1,16 @@
+1
+00:00:00,000 --> 00:00:02,690
+Doctor: Good morning. How can I help you today?
+
+2
+00:00:02,690 --> 00:00:07,140
+Patient: Good morning, Doctor. I've been getting a very bad headache for the past two days.
+
+3
+00:00:07,140 --> 00:00:11,670
+Doctor: I see. Can you describe the pain? Is it sharp or a dull ache?
+
+4
+00:00:11,670 --> 00:00:17,310
+Patient: It’s a constant, dull ache that feels like a tight band around my head. I also feel some tension in my neck.
+

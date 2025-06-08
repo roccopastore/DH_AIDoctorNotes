@@ -1,0 +1,15 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Good morning Mr. Rossi. What brings you in today?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Good morning doctor. I've been having some chest discomfort for the past few days.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> I see. Can you describe the discomfort? Is it sharp, dull or burning?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> It's more of a tightness. It usually happens when I walk or climb stairs.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> And how long does it last?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Just a few minutes. It goes away from when I rest.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Have you had this kind of pain before?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, this is the first time.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Any other symptoms like shortness of breath, sweating or nausea?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> I do feel short of breath sometimes but no nausea or sweating.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Do you have a history of heart problems in your family?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Yes, My father had a heart attack in his 50s.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Alright, I'd like to run some tests including an ECG and some blood work. We need to check if your heart is under stress.</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Okay, I understand.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Don't worry for now we'll take good care of you. Let's.</p>

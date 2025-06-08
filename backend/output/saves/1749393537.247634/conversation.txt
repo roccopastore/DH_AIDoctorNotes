@@ -1,0 +1,7 @@
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Good morning, Doctor. I hypnotized some strange spots appearing on my arms over the past two weeks. Good morning. Can you describe the spots? Are they thicky, painful or changing in size?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> They are small, reddish and not itchy. A few seem to be getting slightly buggier too.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Have you changed any skincare products, detergents or medication recently?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> Not really. Everything in my routine has been the same.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> Okay. Do you have any history of allergies or skin conditions?</p>
+<p><span style="color: red; font-weight: bold">PATIENT:</span> No, nothing that I know of.</p>
+<p><span style="color: green; font-weight: bold">DOCTOR:</span> I will take a closer look. It may be a mild form of dermatis.</p>
