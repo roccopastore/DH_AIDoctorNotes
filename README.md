@@ -24,8 +24,7 @@ Here is a quick look at the application's user interface.
 
 | Main Interface (Recording)                                 | Conversation Archive                                |
 | ---------------------------------------------------------- | --------------------------------------------------- |
-| **(ADD YOUR MAIN SCREENSHOT HERE)** | **(ADD YOUR ARCHIVE SCREENSHOT HERE)** |
-| `![Main Screen](link_to_your_main_screen_image.png)`        | `![Archive View](link_to_your_archive_view_image.png)` |
+| <img width="581" height="737" alt="Screenshot 2025-07-18 alle 00 35 13" src="https://github.com/user-attachments/assets/7327de3c-7614-4160-9422-a6fbcfd87ba1" /> | <img width="577" height="715" alt="Screenshot 2025-07-18 alle 00 35 57" src="https://github.com/user-attachments/assets/4ea14430-528a-41db-8f8a-2bc1be561540" /> |
 
 ---
 
@@ -50,15 +49,13 @@ The raw, machine-generated transcript is corrected and clarified by the LLM, wit
 
 Clinically relevant information is extracted and organized into a formal report that is easy to read and download.
 
-**(ADD A SCREENSHOT OF YOUR GENERATED PDF REPORT HERE)**
-`![Clinical Notes PDF](link_to_your_notes_pdf_image.png)`
+<img width="572" height="674" alt="Screenshot 2025-07-18 alle 00 36 52" src="https://github.com/user-attachments/assets/23b5ffaf-6569-4987-82f1-573f1305781f" />
 
 ### 3. Instant Avatar Video (Placeholder)
 
 To provide immediate feedback, a simple cartoon-style avatar video is generated instantly using MoviePy while the final version renders.
 
-**(ADD A GIF OR SCREENSHOT OF THE CARTOON AVATAR VIDEO HERE)**
-`![Placeholder Video](link_to_your_placeholder_video.gif)`
+![ezgif-8973e4a498ab1f](https://github.com/user-attachments/assets/7b127ffa-94b7-49bf-86b7-6aabfab82406)
 
 ### 4. Photorealistic Video Summary (Final)
 
@@ -95,9 +92,6 @@ The final output is a high-fidelity video of the conversation, created using Syn
     ```
 
 2.  **Install dependencies:**
-    ```sh
-    pip install -r requirements.txt
-    ```
 
 3.  **Configure API Keys:**
     This projects requires three API KEYS:
@@ -109,7 +103,7 @@ The final output is a high-fidelity video of the conversation, created using Syn
 
 4.  **Run the application:**
     ```sh
-    python main.py
+    python guy.py
     ```
 
 ---
