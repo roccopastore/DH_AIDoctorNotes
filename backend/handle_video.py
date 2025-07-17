@@ -92,7 +92,7 @@ def request_video(conversation, timestamp):
     headers = {
         "accept": "application/json",
         "content-type": "application/json",
-        "Authorization": "6cc9b1beb23970332eabf466797bc682" # Synthesia API Key
+        "Authorization": "your_key" # Synthesia API Key
     }
 
     url = "https://api.synthesia.io/v2/videos/fromTemplate"
@@ -123,7 +123,7 @@ def info_video(video_id, timestamp):
     url = f"https://api.synthesia.io/v2/videos/{video_id}"
     headers = {
         "accept": "application/json",
-        "Authorization": "6cc9b1beb23970332eabf466797bc682"
+        "Authorization": "your_key"
     }
     response = requests.get(url, headers=headers)
 

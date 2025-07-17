@@ -159,7 +159,7 @@ def transcript_audio(audio_file_name):
     """
     Transcribes an audio file using the AssemblyAI API with speaker diarization.
     """
-    aai.settings.api_key = "1323e6e9fdb049cebe3a50e1b80c3dab"
+    aai.settings.api_key = "your_key"
 
     #To test without mic recording
     #audio_file = "./backend/cutted2.mp3"
@@ -197,7 +197,7 @@ def analyze_dialogue(dialogue_text):
     Sends a transcribed dialogue to an LLM to identify roles (Doctor/Patient)
     and generate a structured summary.
     """
-    TOGETHER_API_KEY = "b1ffe76016293ce862ba3477cae9ffb199b61f47fd2515d53a659f4cf2ff3c4e"  
+    TOGETHER_API_KEY = "your_api"  
 
     prompt = f"""
         You are a virtual medical assistant.
